@@ -37,3 +37,13 @@ body{
     margin-top: 15px;
     position: relative;
 }
+.content .left-side::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+}
